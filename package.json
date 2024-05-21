@@ -35,7 +35,8 @@
     "clean:taxCategories": "npm run build && node dist/lib/tax-categories.js --clean",
     "clean:types": "npm run build && node dist/lib/types.js --clean",
     "start": "npm run build && node dist/lib/data.js --start",
-    "lint": "prettier --write ./lib/** && eslint --fix ./lib/**"
+    "lint": "prettier --write ./lib/** && eslint --fix ./lib/**",
+    "import:products:plants": "npm run build && node dist/lib/products.js --importtypes --types ./data/plants/product-type.json && node dist/lib/products.js --import --csv ./data/plants/products.csv --types ./data/plants/product-type.json"
   },
   "repository": {
     "type": "git",

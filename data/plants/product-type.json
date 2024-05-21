@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Plant",
+    "key": "ecommerce2024rss_plant",
+    "description": "Single plant",
+    "attributes": [
+      {
+        "name": "size",
+        "label": {
+          "en-us": "size"
+        },
+        "isRequired": false,
+        "type": {
+          "name": "text"
+        },
+        "attributeConstraint": "Unique",
+        "isSearchable": true,
+        "inputHint": "SingleLine",
+        "displayGroup": "Other"
+      }
+    ]
+  }
+]
