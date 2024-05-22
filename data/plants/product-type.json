@@ -19,5 +19,71 @@
         "displayGroup": "Other"
       }
     ]
+  },
+  {
+    "name": "Plant_set",
+    "key": "ecommerce2024rss_set",
+    "description": "Set of plants",
+    "attributes": [
+      {
+        "name": "amount",
+        "label": {
+          "en-us": "amount"
+        },
+        "isRequired": false,
+        "type": {
+          "name": "text"
+        },
+        "attributeConstraint": "Unique",
+        "isSearchable": true,
+        "inputHint": "SingleLine",
+        "displayGroup": "Other"
+      }
+    ]
+  },
+  {
+    "name": "Fertilizer",
+    "key": "ecommerce2024rss_fert",
+    "description": "Fertilizers",
+    "attributes": []
+  },
+  {
+    "name": "Secateur",
+    "key": "ecommerce2024rss_secateur",
+    "description": "Secateurs",
+    "attributes": []
+  },
+  {
+    "name": "Shovel",
+    "key": "ecommerce2024rss_shovel",
+    "description": "Shovels",
+    "attributes": [
+      {
+        "name": "size",
+        "label": {
+          "en-us": "size"
+        },
+        "isRequired": false,
+        "type": {
+          "name": "text"
+        },
+        "attributeConstraint": "Unique",
+        "isSearchable": true,
+        "inputHint": "SingleLine",
+        "displayGroup": "Other"
+      }
+    ]
+  },
+  {
+    "name": "Spray",
+    "key": "ecommerce2024rss_spray",
+    "description": "Sprays",
+    "attributes": []
+  },
+  {
+    "name": "Can",
+    "key": "ecommerce2024rss_can",
+    "description": "Can",
+    "attributes": []
   }
 ]
