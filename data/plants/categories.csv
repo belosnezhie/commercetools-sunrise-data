@@ -1,3 +1,4 @@
-key,externalId,name.en-us,slug.en-us,parentId,orderHint,webImageUrl,iosImageUrl
-c1,1,single_plant,single-plant,,,,
-c2,2,plants_set,plants-set,,,,
+key,externalId,name.en-us,slug.en-us,parentId,orderHint,webImageUrl,iosImageUrl,name.en,slug.en
+ecommerce2024rss_plant,1,plant,plant,,,,,plant,plant
+ecommerce2024rss_set,3,plant-set,plant-set,1,,,,plant-set,plant-set
+ecommerce2024rss_single,2,plant-single,plant-single,1,,,,plant-single,plant-single

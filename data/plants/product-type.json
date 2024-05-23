@@ -2,6 +2,27 @@
   {
     "name": "Plant",
     "key": "ecommerce2024rss_plant",
+    "description": "Plant",
+    "attributes": [
+      {
+        "name": "size",
+        "label": {
+          "en-us": "size"
+        },
+        "isRequired": false,
+        "type": {
+          "name": "text"
+        },
+        "attributeConstraint": "Unique",
+        "isSearchable": true,
+        "inputHint": "SingleLine",
+        "displayGroup": "Other"
+      }
+    ]
+  },
+  {
+    "name": "Single Plant",
+    "key": "ecommerce2024rss_single",
     "description": "Single plant",
     "attributes": [
       {

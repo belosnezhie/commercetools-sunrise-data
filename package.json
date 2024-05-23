@@ -36,7 +36,8 @@
     "clean:types": "npm run build && node dist/lib/types.js --clean",
     "start": "npm run build && node dist/lib/data.js --start",
     "lint": "prettier --write ./lib/** && eslint --fix ./lib/**",
-    "import:products:plants": "npm run build && node dist/lib/products.js --importtypes --types ./data/plants/product-type.json && node dist/lib/products.js --import --csv ./data/plants/products.csv --types ./data/plants/product-type.json"
+    "import:categories:plants": "npm run build && node dist/lib/categories.js --import --csv ./data/plants/categories.csv",
+    "import:products:plants": "npm run build && node dist/lib/products.js --importtypes --types ./data/plants/product-type.json && node dist/lib/products.js --import  --categories ./data/plants/categories.csv  --csv ./data/plants/products.csv --types ./data/plants/product-type.json"
   },
   "repository": {
     "type": "git",
