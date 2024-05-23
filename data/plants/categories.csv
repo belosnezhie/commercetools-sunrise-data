@@ -1,4 +1,10 @@
 key,externalId,name.en-us,slug.en-us,parentId,orderHint,webImageUrl,iosImageUrl,name.en,slug.en
-ecommerce2024rss_plant,1,plant,plant,,,,,plant,plant
-ecommerce2024rss_set,3,plant-set,plant-set,1,,,,plant-set,plant-set
-ecommerce2024rss_single,2,plant-single,plant-single,1,,,,plant-single,plant-single
+ecommerce2024rss_plant,1,Plant,plant,,,,,Plant,plant
+ecommerce2024rss_set,3,Set,plant-set,1,,,,Set,plant-set
+ecommerce2024rss_single,2,Single,plant-single,1,,,,Single,plant-single
+ecommerce2024rss_gadget,4,Gadget,gadget,,,,,Gadget,gadget
+ecommerce2024rss_fert,5,Fertilizer,gadget-fertilizer,4,,,,Fertilizer,gadget-fertilizer
+ecommerce2024rss_can,6,Can,gadget-can,4,,,,Can,gadget-can
+ecommerce2024rss_secateur,7,Secateur,gadget-secateur,4,,,,Secateur,gadget-secateur
+ecommerce2024rss_shovel,8,Shovel,gadget-shovel,4,,,,Shovel,gadget-shovel
+ecommerce2024rss_spray,9,Spray,gadget-spray,4,,,,Spray,gadget-spray
